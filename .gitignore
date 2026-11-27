@@ -1,0 +1,70 @@
+# ---------- ROS 2 / colcon build outputs ----------
+build/
+install/
+log/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+
+# ---------- C/C++ compiled output ----------
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.d
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+compile_commands.json
+
+# ---------- Recordings, datasets, point clouds ----------
+*.bag
+*.db3
+*.db3-*
+*.mcap
+rosbag*/
+rosbag2_*/
+*.pcd
+*.ply
+*.las
+*.laz
+*.bin
+*.npy
+*.npz
+*.lvx
+*.lvx2
+data/
+datasets/
+
+# ---------- Secrets / environment ----------
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets.*
+
+# ---------- Editors / OS / temp ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.tmp
+*.log
